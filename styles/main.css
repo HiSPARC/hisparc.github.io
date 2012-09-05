@@ -1,0 +1,40 @@
+html {
+    font-family: sans-serif;}
+
+#container {
+    margin: auto;
+    width: 850px;}
+
+#pageHeader {
+    background: url(../images/header.png) top right no-repeat;
+    height: 63px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    left: 630px;
+    display: inline-block;
+    position: relative;}
+
+#pageHeader span {
+    display: none;}
+
+#github-content {
+    }
+
+#hisparc {
+    margin-top: 150px;}
+
+a {
+    color: #0060B9;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: #3C6891;
+    text-decoration: none;
+    }
+
+a:hover {
+    color: #04315C;
+    text-decoration: none;
+    }
