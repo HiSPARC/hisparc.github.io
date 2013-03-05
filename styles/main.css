@@ -5,24 +5,33 @@ html {
     margin: auto;
     width: 850px;}
 
+#header {
+    height: 75px;
+    width: 100%;}
+
 #pageHeader {
     background: url(../images/header.png) top right no-repeat;
     height: 63px;
-    width: 200px;
+    width: 189px;
     margin: 0;
     padding: 0;
-    left: 630px;
-    display: inline-block;
-    position: relative;}
+    float: right;
+    display: inline-block;}
 
 #pageHeader span {
     display: none;}
 
-#github-content {
-    }
+.clearer {
+    clear: both;}
 
-#hisparc {
-    margin-top: 150px;}
+#github-content {
+    float: left;
+    width: 50%;}
+
+#hisparc-content {
+    font-size: 90%;
+    float: left;
+    width: 50%;}
 
 a {
     color: #0060B9;
