@@ -24,26 +24,30 @@ html {
 .clearer {
     clear: both;}
 
-#github-content {
+#github-content,
+#hisparc-content {
+    margin: 0;
+    padding: 0;
     float: left;
     width: 50%;}
 
 #hisparc-content {
-    font-size: 90%;
-    float: left;
-    width: 50%;}
+    font-size: 90%;}
+
+h2 {
+    margin-top: 25px;}
+
+p {
+    line-height: 1.8em;}
 
 a {
     color: #0060B9;
-    text-decoration: none;
-    }
+    text-decoration: none;}
 
 a:visited {
     color: #3C6891;
-    text-decoration: none;
-    }
+    text-decoration: none;}
 
 a:hover {
-    color: #04315C;
-    text-decoration: none;
-    }
+    color: #002141;
+    text-decoration: none;}
