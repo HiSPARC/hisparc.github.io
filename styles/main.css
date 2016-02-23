@@ -24,6 +24,10 @@ html {
 .clearer {
     clear: both;}
 
+.smallnote {
+    font-size: .6em;
+    color: gray;}
+
 #github-content,
 #hisparc-content {
     margin: 0;
