@@ -1,13 +1,21 @@
 html {
-    font-family: sans-serif;}
+    font-family: sans-serif;
+
+    @media (prefers-color-scheme: dark) {
+        background-color: #111;
+        color: #eee;
+    }
+}
 
 #container {
     margin: auto;
-    width: 850px;}
+    width: 850px;
+}
 
 #header {
     height: 75px;
-    width: 100%;}
+    width: 100%;
+}
 
 #pageHeader {
     background: url(../images/header.png) top right no-repeat;
@@ -16,42 +24,60 @@ html {
     margin: 0;
     padding: 0;
     float: right;
-    display: inline-block;}
+    display: inline-block;
+
+    @media (prefers-color-scheme: dark) {
+        filter: invert(100%);
+    }
+}
 
 #pageHeader span {
-    display: none;}
+    display: none;
+}
 
 .clearer {
-    clear: both;}
+    clear: both;
+}
 
 .smallnote {
     font-size: .6em;
-    color: gray;}
+    color: gray;
+}
 
 #github-content,
 #hisparc-content {
     margin: 0;
     padding: 0;
     float: left;
-    width: 50%;}
+    width: 50%;
+}
 
 #hisparc-content {
-    font-size: 90%;}
+    font-size: 90%;
+}
 
 h2 {
-    margin-top: 25px;}
+    margin-top: 25px;
+}
 
 p {
-    line-height: 1.8em;}
+    line-height: 1.8em;
+}
 
-a {
+a, a:visited {
     color: #0060B9;
-    text-decoration: none;}
+    text-decoration: none;
 
-a:visited {
-    color: #3C6891;
-    text-decoration: none;}
+    @media (prefers-color-scheme: dark) {
+        color: #68b;
+    }
+}
 
 a:hover {
     color: #002141;
-    text-decoration: none;}
+    text-decoration: none;
+
+    @media (prefers-color-scheme: dark) {
+        color: #acf;
+    }
+}
